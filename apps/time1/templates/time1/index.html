@@ -11,8 +11,12 @@
             <h4>The current time and date:</h4>
         </article>
         <div id="time_date">
-    	   <h2>{{ request.date }}</h2>
-           <h2>{{ request.time }}</h2>
+            {% if datetime %}
+                {% for a in datetime %}
+    	           <h2>{{ a.date }}</h2>
+                   <h2>{{ a.time }}</h2>
+                {% endfor %}
+            {% endif %}
         </div>
     </body>
 </html>
