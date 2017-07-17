@@ -1,0 +1,26 @@
+*{
+	width: auto;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: arial;
+}
+
+h4{
+	padding: 5%;
+	margin: 5%;
+	border: solid black 2px;
+	text-align: center;
+}
+
+article{
+	width: 70%;
+}
+
+#time_date{
+	padding: 10%;
+	margin: 5%;
+	border: solid black 2px;
+	text-align: center;
+	display
+}

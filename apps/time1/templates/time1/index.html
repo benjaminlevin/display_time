@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Time Display</title>
+    {% load staticfiles %}
+    <link rel="stylesheet" href="{% static 'time1/css/main.css' %}">
+    </head>
+    <body>
+        <article>
+            <h4>The current time and date:</h4>
+        </article>
+        <div id="time_date">
+    	   <h2>{{ request.date }}</h2>
+           <h2>{{ request.time }}</h2>
+        </div>
+    </body>
+</html>
